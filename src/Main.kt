@@ -5,9 +5,10 @@ fun main(){
     println(nums.count())
     println(nums.average())
     var num=calculate(49)
+
 }
 fun statement(word:String){
-    println(word.indexOf('b'))
+    println(word.split("b"))
 
 
 }
@@ -21,8 +22,8 @@ fun calculate(num:Int){
     println(volume)
 }
 fun isPalindrome(word:String) {
-    var check = word
-    if (check == word ) {
+    var check = "madam"
+    if (check==word) {
         println(true)
     } else {
         println(false)
