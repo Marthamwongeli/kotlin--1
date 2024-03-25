@@ -20,12 +20,12 @@ fun calculate(num:Int){
     var volume=  4/3 * 3.14159 * num*num*num
     println(volume)
 }
-fun isPalindrome(word:String):Boolean {
+fun isPalindrome(word:String) {
     var check = word
-    if (check ==  ) {
+    if (check == word ) {
         println(true)
     } else {
-//        println(false)
-//
+        println(false)
+
     }
 }
